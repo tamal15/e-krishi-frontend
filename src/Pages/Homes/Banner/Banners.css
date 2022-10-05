@@ -1,0 +1,84 @@
+.hero-section {
+    /* position: relative; */
+    background-image: url("https://cdn.wallpapersafari.com/56/7/jVYJl5.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* z-index: 1; */
+  }
+.hero-section2 {
+    /* position: relative; */
+    background-image: url("https://img.wallpapic.com/i4920-333-917/thumb/fruits-and-vegetables-food-local-wallpaper.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* z-index: 1; */
+  }
+.hero-section3 {
+    /* position: relative; */
+    background-image: url("https://live.staticflickr.com/7362/14023849126_ed7385c468_b.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* z-index: 1; */
+  }
+ 
+  .hero-section::before{
+    /* position: absolute; */
+    content:"";
+    background-color: black;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    opacity: .7;
+    /* z-index: -1; */
+  }
+
+
+  .mouses{
+    /* grid-template-columns: repeat(3,1fr); */
+    display: flex;
+   }
+   
+   .keys{
+       /* background-color:darkcyan; */
+       margin-top: -15px;
+   }
+   
+   .mouses i{
+       color:white;
+       font-size: 35px;
+   }
+   /* .laptops i{
+       color:white;
+       font-size: 25px;
+   } */
+   .dell{
+       background-color: white;
+       background-image: url("https://media.istockphoto.com/photos/fresh-fruits-and-vegetables-frame-on-white-background-copy-space-picture-id1288664808?k=20&m=1288664808&s=170667a&w=0&h=UUOEXe8KqNoc-vIb-no5EcnlPn_CzQ5mZ0ptGnsfNHU=");
+   }
+   .dellss{
+       background-color: white;
+       background-image: url("https://media.istockphoto.com/photos/fresh-fruits-and-vegetables-frame-on-white-background-copy-space-picture-id1288664808?k=20&m=1288664808&s=170667a&w=0&h=UUOEXe8KqNoc-vIb-no5EcnlPn_CzQ5mZ0ptGnsfNHU=");
+   }
+   
+   
+   
+   .dells{
+       background-color: #1f2833;
+       background-image: url('https://media.istockphoto.com/photos/vegetables-background-picture-id1393886025?b=1&k=20&m=1393886025&s=170667a&w=0&h=nwK2g0wQCGzzaPAwURYQMolSYafOnRHDG0aJBTCUNGw=');
+       color:white;
+       /* padding:7px; */
+   }
+   /* 1f2833 */
+   .stand-bg{
+       background-color:floralwhite;
+      
+       margin-bottom: 70px;
+   }
+   .dones{
+       color:white;
+   }
