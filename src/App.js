@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './Context/AuthProvider';
 import CartContextProvider from './contexts/CartContext';
+import Appointment from './Pages/Appointment/Appointment';
+import AdminProductsShow from './Pages/Dashboard/AdminDashboard/AdminProductsShow/AdminProductsShow';
 import MakeAdmin from './Pages/Dashboard/AdminDashboard/MakeAdmin/MakeAdmin';
 import BuyerUploadProduct from './Pages/Dashboard/BuyerDashboard/BuyerUploadProduct/BuyerUploadProduct';
 
@@ -30,10 +32,12 @@ function App() {
        <Route path="/" element={<Home />} />
        <Route path="/register" element={<Register />} />
        <Route path="/login" element={<Login />} />
+       <Route path="/product" element={<AdminProductsShow />} />
       
        <Route path="/OrderReview" element={<OrderReview />} />
        <Route path="/vegetables" element={<Vegetables />} />
        <Route path="/food" element={<Food />} />
+       <Route path="/appointment" element={<Appointment />} />
        <Route path="/contact" element={<Contact />} />
        <Route path="/about" element={<About />} />
        <Route path="/manyProducts" element={<ManyProducts />} />

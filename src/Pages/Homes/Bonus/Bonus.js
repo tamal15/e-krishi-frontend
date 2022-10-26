@@ -6,12 +6,14 @@ import './Bonus.css'
 const Bonus = () => {
     return (
         <div>
+
+          <h1 className='mt-5'>Offers Products</h1>
             <div className="container mb-5 p-3 mt-5">
                   {/* <h1  className="text-info mb-5 mt-5">Services</h1> */}
             <div data-aos="fade-up" className="row row-cols-1 row-cols-md-3 g-4">
 
             <div data-aos="fade-up" class="col">
-              <div className="card  project" style={{border:"2px solid white"}}>
+              <div className="card  " style={{border:"2px solid white"}}>
                 
             
                 {/* <h1>{id}</h1> */}
@@ -23,7 +25,7 @@ const Bonus = () => {
 
             {/* 2nd  */}
             <div data-aos="fade-up" class="col">
-              <div className="card  project">
+              <div className="card ">
                 
             
                 {/* <h1>{id}</h1> */}
@@ -36,7 +38,7 @@ const Bonus = () => {
 
             {/* 3rd  */}
             <div data-aos="fade-up" class="col">
-              <div className="card  project">
+              <div className="card  ">
                 
             
                 {/* <h1>{id}</h1> */}
@@ -50,7 +52,7 @@ const Bonus = () => {
 
             {/* 4rd  */}
             <div data-aos="fade-up" class="col">
-              <div className="card  project">
+              <div className="card  ">
                 
             
                 {/* <h1>{id}</h1> */}
@@ -64,7 +66,7 @@ const Bonus = () => {
 
             {/* 5th  */}
             <div data-aos="fade-up" class="col">
-              <div className="card  project">
+              <div className="card  ">
                 
             
                 {/* <h1>{id}</h1> */}
@@ -78,7 +80,7 @@ const Bonus = () => {
 
             {/* 6th  */}
             <div data-aos="fade-up" class="col">
-              <div className="card  project">
+              <div className="card  ">
                 
             
                 {/* <h1>{id}</h1> */}

@@ -19,7 +19,7 @@ const Banners = () => {
   <section className="hero-section">
            
            <div className="container">
-               <div className="row pt-5 pb-5">
+               <div className="row pt-2 pb-5">
                    <div className="d-flex justify-content-center align-items-center ">
                        <div>
                            <div id="home" className="row align-items-center d-flex  justify-content-start px-5 my-5 py-5">
@@ -181,7 +181,7 @@ const Banners = () => {
   <section className="hero-section2">
            
            <div className="container">
-               <div className="row pt-5 pb-5">
+               <div className="row pt-2 pb-5">
                    <div className="d-flex justify-content-center align-items-center ">
                        <div>
                            <div id="home" className="row align-items-center d-flex  justify-content-start px-5 my-5 py-5">
@@ -337,7 +337,7 @@ const Banners = () => {
   <section className="hero-section3">
            
            <div className="container">
-               <div className="row pt-5 pb-5">
+               <div className="row pt-2 pb-5">
                    <div className="d-flex justify-content-center align-items-center ">
                        <div>
                            <div id="home" className="row align-items-center d-flex  justify-content-start px-5 my-5 py-5">

@@ -59,7 +59,7 @@ const Login = () => {
                                 <input
                                 style={{fontWeight:"500"}}
                                     className='w-75 mb-3'
-                                    {...register("password", { required: true })} placeholder='Enter Password' />
+                                    {...register("password", { required: true })} placeholder='Enter Password' type="password" />
                                 <br />
 
                                 <button className='submit-all' type='submit'>Login</button>

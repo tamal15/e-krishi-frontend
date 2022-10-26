@@ -3,6 +3,8 @@ import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Cart from '../../ComponentCart/Cart';
 import { CartContext } from '../../contexts/CartContext';
+import Footer from '../Shared/Footer/Footer';
+import Header from '../Shared/Header/Header';
 // import Cart from '../../Components/Cart';
 // import { CartContext } from '../../Context/CartContext';
 
@@ -26,6 +28,9 @@ const OrderReview = () => {
 
 
     return (
+      <div>
+        <Header></Header>
+
         <Container>
             <br />
             <Grid container spacing={2} columns={{ xs: 12, sm: 6, md: 6 }}>
@@ -102,6 +107,11 @@ const OrderReview = () => {
                 </Grid>
             </Grid>
         </Container>
+
+
+
+        <Footer></Footer>
+      </div>
     );
 };
 

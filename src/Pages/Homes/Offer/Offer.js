@@ -16,7 +16,7 @@ const Offer = () => {
   <Carousel.Item className="carousel-design values">
   <img
       className="d-block w-100  slide"
-      src="https://storage.googleapis.com/monarchmart-storage/uploads/all/Q3Bkoc7GUP4sxm4DxxziSiXARk32BVBrKcl2tbn2.png"
+      src="https://i.ibb.co/NpsrV8j/foods1.jpg"
       alt="First slide"
     />
   
@@ -36,7 +36,7 @@ const Offer = () => {
   <Carousel.Item className="carousel-design values">
     <img
       className="d-block w-100  slide"
-      src="https://storage.googleapis.com/monarchmart-storage/uploads/all/nsEAS0QkcfIPtnZtHJ9CeEWROcUZ9uMtwmkaqQI3.png"
+      src="https://i.ibb.co/P5XbyPP/food2.jpg"
       alt="Second slide"
     />
 
@@ -51,7 +51,7 @@ const Offer = () => {
   <Carousel.Item className="carousel-design values">
     <img
       className="d-block w-100  slide"
-      src="https://storage.googleapis.com/monarchmart-storage/uploads/all/QedHD7eq48aIcnBtB5GkkmbxL89Je4jfUHS5Aynj.png"
+      src="https://i.ibb.co/kc913Ry/foods3.jpg"
       alt="Third slide"
     />
 

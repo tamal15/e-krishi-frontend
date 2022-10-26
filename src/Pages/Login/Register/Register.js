@@ -63,10 +63,10 @@ const Register = () => {
                             className='w-75 mb-3'  {...register("email", { required: true })} placeholder='Enter Email' /> <br />
                             <input
                             styele={{fontWeight:"500"}}
-                            className='w-75 mb-3' {...register("password", { required: true })} placeholder='Enter Password' /> <br />
+                            className='w-75 mb-3' {...register("password", { required: true })} placeholder='6-digit password' type="password" /> <br />
                             <input
                             style={{fontWeight:"500"}}
-                            className='w-75 mb-3' {...register("password2", { required: true })} placeholder='Re-enter Password' /> <br />
+                            className='w-75 mb-3' {...register("password2", { required: true })} placeholder='Re-enter Password' type="password" /> <br />
                             <input
                             style={{fontWeight:"500"}}
                             className='w-75 mb-3' {...register("client", { required: true })} placeholder='buyer / user' /> <br />
