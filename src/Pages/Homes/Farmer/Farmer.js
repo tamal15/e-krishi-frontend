@@ -4,7 +4,7 @@ const Farmer = () => {
     return (
         <div>
             <div className="container mb-5 p-3">
-                  <h1  className="text-info mb-5 mt-5 organic">We are Professional Organic Farmer</h1>
+                  <h1  className=" mb-5 mt-5 organic">We are Professional Organic Farmer</h1>
             <div data-aos="fade-up" className="row row-cols-1 row-cols-md-3 g-4">
 
             <div data-aos="fade-up" class="col">

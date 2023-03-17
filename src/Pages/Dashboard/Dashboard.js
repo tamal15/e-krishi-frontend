@@ -96,8 +96,8 @@ const Dashboard = () => {
                                   })}><FaBookmark className='me-1' /> Add Questions</NavLink>
                               </li> */}
 
-                              <li>
-                                <NavLink className="des" to={`makeadmin`} style={({ isActive }) => ({
+                              <li>/dashboard/addASchool
+                                <NavLink className="des" to={`/dasgboard/makeadmin`} style={({ isActive }) => ({
                                     color: isActive ? "#CCCCCC" : "#CCCCCC",
                                 })}><FaBookmark className='me-1' /> Make Admin</NavLink>
                             </li>
@@ -108,16 +108,16 @@ const Dashboard = () => {
                               </li> */}
                               
                              
-                              <li>
+                              {/* <li>
                                   <NavLink className="des " to={`buyerUpload`} style={({ isActive }) => ({
                                       color: isActive ? "#CCCCCC" : "#CCCCCC",
                                   })}><FaTasks className='me-1' />Add Product</NavLink>
-                              </li>
-                              <li>
+                              </li> */}
+                              {/* <li>
                                   <NavLink className="des " to={`adminsproducts`} style={({ isActive }) => ({
                                       color: isActive ? "#CCCCCC" : "#CCCCCC",
                                   })}><FaTasks className='me-1' />All Products</NavLink>
-                              </li>
+                              </li> */}
                               <li>
                                   <NavLink className="des " to={`usercustomerorder`} style={({ isActive }) => ({
                                       color: isActive ? "#CCCCCC" : "#CCCCCC",

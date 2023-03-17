@@ -56,7 +56,7 @@
 
 .btn-style {
     outline: none;
-    background-color: #1289A7;
+    background-color: black;
     border: 2px solid transparent;
     color: white;
     padding: 4px 20px;
@@ -72,7 +72,7 @@
 .btn-style.download-btn{
     /* background-color: white; */
     /* color: #1289A7; */
-    background-color: #2B5278;
+    background-color: black;
     /* background-color: #1f2833;; */
     /* border: 2px solid white; */
     color:white;
@@ -100,17 +100,17 @@ margin-bottom: 60px;
 .viewmore{
     margin-top: 20px;
     font-size: 23px;
-    background-color: #2B5278;
+    background-color: white;
     padding: 10px 20px;
     border-radius: 10px;
-    color: white;
+    color: black;
     font-weight: 700;
     text-decoration: none;
 }
 
 .viewmore:hover{
-    color:black;
-    background-color:azure;
+    color:white;
+    background-color:#2B5278;
 }
 
 .details-show{

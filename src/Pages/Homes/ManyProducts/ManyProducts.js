@@ -98,7 +98,7 @@ const ManyProducts = () => {
     // }, [type, year, code, page]);
 
     const fetchData = () => {
-      fetch('https://radiant-lowlands-68414.herokuapp.com/products')
+      fetch('http://localhost:5000/products')
       .then(res => res.json())
       .then(data => {
           setQuestions(data.allData)
@@ -157,7 +157,7 @@ const ManyProducts = () => {
 
 
     useEffect(()=>{
-        fetch('https://radiant-lowlands-68414.herokuapp.com/products')
+        fetch('http://localhost:5000/products')
         .then(res=>res.json())
         .then(data=>setModel(data.allData))
     },[])

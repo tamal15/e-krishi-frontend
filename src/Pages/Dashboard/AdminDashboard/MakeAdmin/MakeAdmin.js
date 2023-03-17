@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import swal from 'sweetalert';
-
+import './MakeAdmin.css'
 const MakeAdmin = () => {
     const[email,setEmail]=useState('');
     const[success,setSuccess]=useState(false)
@@ -9,7 +9,7 @@ const MakeAdmin = () => {
     }
     const handleAdmin=e=>{
         const user={email}
-        fetch('https://radiant-lowlands-68414.herokuapp.com/userLogin/admin',{
+        fetch('http://localhost:5000/userLogin/admin',{
             method:'PUT',
             headers:{
                 'content-type':'application/json'
@@ -44,9 +44,10 @@ const MakeAdmin = () => {
           id='email'
           onBlur={handleonBlur}
           required
-          className=' outline-none px-3 py-2 '
+        //   className=' outline-none px-3 py-2 '
+        className=' outline-none px-3 py-2 admin-design '
         />
-        <button className='button' type="submit">Make Admin</button>
+        <button className='button-admin ms-2' type="submit">Make Admin</button>
 
         {/* {
                 success &&

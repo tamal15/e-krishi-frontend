@@ -57,7 +57,7 @@ import { CartContext } from "../../../../contexts/CartContext";
     const [isFetched, setIsFetched] = useState(0);
   
     useEffect(() => {
-      fetch(`https://radiant-lowlands-68414.herokuapp.com/product/${id}`)
+      fetch(`http://localhost:5000/product/${id}`)
         .then((res) => res.json())
         .then((data) => setBook(data));
     }, [id]);

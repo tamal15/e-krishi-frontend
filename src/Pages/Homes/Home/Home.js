@@ -8,15 +8,17 @@ import Choose from '../Choose/Choose';
 import Farmer from '../Farmer/Farmer';
 import Offer from '../Offer/Offer';
 import Patner from '../Patner/Patner';
+import Categories from './Categories/Categories';
 // import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
-        <div>
+        <div style={{background:"black"}}>
             <Header></Header>
             <Banners></Banners>
             <Bonus></Bonus>
             <BuyerProducts></BuyerProducts>
+            <Categories></Categories>
             <div className='mt-5'>
             <Choose></Choose>
             </div>

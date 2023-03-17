@@ -98,7 +98,7 @@ const Food = () => {
     // }, [type, year, code, page]);
 
     const fetchData = () => {
-      fetch('https://radiant-lowlands-68414.herokuapp.com/products')
+      fetch('http://localhost:5000/products')
       .then(res => res.json())
       .then(data => {
           setQuestions(data.allData)
@@ -157,7 +157,7 @@ const Food = () => {
 
 
     useEffect(()=>{
-        fetch('https://radiant-lowlands-68414.herokuapp.com/products')
+        fetch('http://localhost:5000/products')
         .then(res=>res.json())
         .then(data=>setModel(data.allData))
     },[])
@@ -202,7 +202,7 @@ const Food = () => {
         
     <div>
         {/* <Header></Header> */}
-          <div  style={{background:""}}>
+          <div  style={{background:"black"}}>
             <Header></Header>
           <div className="container text-black mt-5 mb-5">
             <div className="row ">
@@ -355,17 +355,7 @@ const Food = () => {
                   </Grid>
                 </Grid>
                 <Box sx={{ display: 'flex', justifyContent: '' }}>
-                  <NavLink
-                    to={`/bookDetails/${single._id}`}
-                    style={{ textDecoration: "none",textAlign:"left" }}
-                  >
-                    <Button
-                     className='btn-style download-btn '
-                     style={{textAlign:"left"}}
-                    size="small">
-                      Details
-                    </Button>
-                  </NavLink>
+                
                   <NavLink
                     to={`/bookDetails/${single._id}`}
                     className="details-show"

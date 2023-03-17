@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import image1 from '../../../../images/developer.jpg'
 // import image2 from '../../../../images/mern.png'
 // import image3 from '../../../../images/designer.jpg'
 import './Bonus.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Bonus = () => {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
     return (
         <div>
 
-          <h1 className='mt-5'>Offers Products</h1>
+          <h1 className='mt-5 text-white'>Offers Products</h1>
             <div className="container mb-5 p-3 mt-5">
                   {/* <h1  className="text-info mb-5 mt-5">Services</h1> */}
             <div data-aos="fade-up" className="row row-cols-1 row-cols-md-3 g-4">
@@ -42,7 +50,7 @@ const Bonus = () => {
                 
             
                 {/* <h1>{id}</h1> */}
-                            <img className="image-design" src="https://image.shutterstock.com/image-vector/set-discount-cards-grocery-food-260nw-1475856917.jpg" class="card-img-top" alt="..." />
+                            <img className="image-design" src="https://img.lovepik.com/free-template/bg/20200611/bg/9951402b4c306_382404.png_list.jpg!/fw/431" class="card-img-top" alt="..." />
 
 
                           </div>

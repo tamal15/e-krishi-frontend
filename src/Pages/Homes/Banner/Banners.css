@@ -1,6 +1,6 @@
 .hero-section {
     /* position: relative; */
-    background-image: url("https://i.ibb.co/hFnmB96/cover-1.jpg");
+    background-image: url("https://i.ibb.co/QMPztj4/01.jpg");
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
   }
 .hero-section2 {
     /* position: relative; */
-    background-image: url("https://i.ibb.co/bRH9xK2/cover-2.jpg");
+    background-image: url("https://static.dw.com/image/64115481_1006.jpg");
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
   }
 .hero-section3 {
     /* position: relative; */
-    background-image: url("https://i.ibb.co/grK0LCC/cover-3.jpg");
+    background-image: url("https://img.freepik.com/premium-photo/man-farmer-holds-vegetables-his-hands-garden-selective-focus-food_73944-19262.jpg?w=2000");
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;

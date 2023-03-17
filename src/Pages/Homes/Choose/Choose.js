@@ -42,10 +42,10 @@ const Choose = () => {
          <Box sx={{ padding: '100px 0' }}>
             <Box sx={{ textAlign: 'center', mb: 10 }}>
                 <Typography variant='h6'
-                    sx={{ color: '#46AADC', pb: 2, fontFamily: 'Georgia', fontStyle: 'italic' }}
+                    sx={{ color: 'white', pb: 2, fontFamily: 'Georgia', fontStyle: 'italic' }}
                 >Read on to understand our differene</Typography>
                 <Typography variant='h4'
-                    sx={{ fontWeight: 'bold' ,color:"#2B5278"}}
+                    sx={{ fontWeight: 'bold' ,color:"white"}}
                 >Why Choose E-Krishi-BD</Typography>
 
             </Box>
@@ -66,17 +66,17 @@ const Choose = () => {
                                     sx={{ display: 'flex' }}>
                                     <Box>
                                         <Typography variant='h4'
-                                            sx={{ color: 'rgb(70, 170, 220)', fontWeight: 'bold' }}
+                                            sx={{ color: 'white', fontWeight: 'bold' }}
                                         >
                                             
                                         </Typography>
                                     </Box>
                                     <Box style={{textAlign:"left"}}>
-                                        <Typography variant='h5' sx={{ color: '#2B5278', pb: 2, fontFamily: 'Georgia', fontStyle: 'italic', fontWeight: '600', textAlign: 'left', margin: '5px',fontSize:"20px" }}>
+                                        <Typography variant='h5' sx={{ color: 'white', pb: 2, fontFamily: 'Georgia', fontStyle: 'italic', fontWeight: '600', textAlign: 'left', margin: '5px',fontSize:"20px" }}>
                                           <ul><li>  {data.title}</li></ul>
 
                                         </Typography>
-                                        <Typography variant='body' style={{color:"#2B5278", fontWeight:"600",textAlign:"left"}}>
+                                        <Typography variant='body' style={{color:"white", fontWeight:"600",textAlign:"left"}}>
                                        <ul>     {data.dis}</ul>
 
 

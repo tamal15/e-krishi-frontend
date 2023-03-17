@@ -13,9 +13,9 @@ const Patner = () => {
         sx={{
           lineHeight: "30px",
           py: 5,
-          textAlign: "left",
+          // textAlign: "left",
           fontWeight: "500",
-          color: "#3B4757",
+          color: "white",
           marginBottom:"20px"
         }}
       >

@@ -16,7 +16,7 @@ const Offer = () => {
   <Carousel.Item className="carousel-design values">
   <img
       className="d-block w-100  slide"
-      src="https://i.ibb.co/NpsrV8j/foods1.jpg"
+      src="https://i.ibb.co/Ld87BcL/7583283.jpg"
       alt="First slide"
     />
   
@@ -24,7 +24,7 @@ const Offer = () => {
     <Carousel.Caption className="styles">
       
     <Link to='/piece'>
-    <button className="banner  text-white">More Products</button>
+    {/* <button className="banner  text-white">More Products</button> */}
     </Link>
      
     </Carousel.Caption>
@@ -36,14 +36,14 @@ const Offer = () => {
   <Carousel.Item className="carousel-design values">
     <img
       className="d-block w-100  slide"
-      src="https://i.ibb.co/P5XbyPP/food2.jpg"
+      src="https://i.ibb.co/hm9f8MQ/7904555.jpg"
       alt="Second slide"
     />
 
     <Carousel.Caption>
  
     <Link to='/more'>
-    <button className="banner  text-white">More Products</button>
+    {/* <button className="banner  text-white">More Products</button> */}
     </Link>
      
     </Carousel.Caption>
@@ -51,14 +51,14 @@ const Offer = () => {
   <Carousel.Item className="carousel-design values">
     <img
       className="d-block w-100  slide"
-      src="https://i.ibb.co/kc913Ry/foods3.jpg"
+      src="https://i.ibb.co/qWFPsnc/summer2-20.jpg"
       alt="Third slide"
     />
 
     <Carousel.Caption>
   
     <Link to='/more'>
-    <button className="banner  text-white">More Products</button>
+    {/* <button className="banner  text-white">More Products</button> */}
     </Link>
     
     </Carousel.Caption>

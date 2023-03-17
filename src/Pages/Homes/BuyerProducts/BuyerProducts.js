@@ -53,7 +53,7 @@ const BuyerProducts = () => {
     //   },[])
 
     const fetchData = () => {
-      fetch('https://radiant-lowlands-68414.herokuapp.com/PostUploadBuyer')
+      fetch('http://localhost:5000/PostUploadBuyer')
         .then(res => res.json())
         // .then(data => setWork(data))
         .then(data => {
@@ -115,13 +115,16 @@ const BuyerProducts = () => {
         <Container>
        
         <Grid
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           container
           spacing={2}
           sx={{ mt: 6 }}
           columns={{ xs: 4, sm: 8, md: 12 }}
         >
           {work?.map((single) => (
-            <Grid sx={{ py: 3 }} key={single._id} item xs={4} sm={4} md={3}>
+            <Grid data-aos="fade-up" sx={{ py: 3 }} key={single._id} item xs={4} sm={4} md={3}>
               <Paper
                 sx={{
                   p: 1,

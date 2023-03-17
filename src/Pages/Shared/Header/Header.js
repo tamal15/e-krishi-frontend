@@ -59,23 +59,23 @@ const Header = () => {
       <Dropdown.Menu className='drops-menu'>
         <Dropdown.Item className='down-color' href="/vegetables">Vegetables</Dropdown.Item>
         <Dropdown.Item className='down-color' href="/all-categories">ALL Categories</Dropdown.Item>
-        <Dropdown.Item className='down-color' href="food">Food</Dropdown.Item>
-        <Dropdown.Item className='down-color' href="jamdani">Fish</Dropdown.Item>
-        <Dropdown.Item className='down-color' href="#/action-3">Duck</Dropdown.Item>
+        <Dropdown.Item className='down-color' href="/food">Food</Dropdown.Item>
+        <Dropdown.Item className='down-color' href="/fish">Fish</Dropdown.Item>
+        <Dropdown.Item className='down-color' href="/duck">Duck</Dropdown.Item>
        
       </Dropdown.Menu>
     </Dropdown>
 
         {/* end  */}
-        <Dropdown.Item className='down-color' href="#/action-2">Cow Feed</Dropdown.Item>
-        <Dropdown.Item className='down-color' href="#/action-3">Truck</Dropdown.Item>
-        <Dropdown.Item className='down-color' href="#/action-3">Fertilizer</Dropdown.Item>
-        <Dropdown.Item className='down-color' href="pottery">Seed</Dropdown.Item>
-        <Dropdown.Item className='down-color' href="#/action-3">Medicin</Dropdown.Item>
+        <Dropdown.Item className='down-color' href="/cow-feed">Cow Feed</Dropdown.Item>
+        <Dropdown.Item className='down-color' href="/truck">Truck</Dropdown.Item>
+        <Dropdown.Item className='down-color' href="/fertilizer">Fertilizer</Dropdown.Item>
+        <Dropdown.Item className='down-color' href="/seed">Seed</Dropdown.Item>
+        <Dropdown.Item className='down-color' href="/medicin">Medicin</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
                             {/* </Nav> */}
-                            <Nav.Link as={NavLink} to="/product" className='menu-item'>Product</Nav.Link>
+                            <Nav.Link as={NavLink} to="/allAdminProduct" className='menu-item'>Product</Nav.Link>
                             <Nav.Link as={NavLink} to="/appointment" className='menu-item'>Appointment</Nav.Link>
                             <Nav.Link as={NavLink} to="/about" className='menu-item'>About</Nav.Link>
                            
@@ -98,7 +98,7 @@ const Header = () => {
 
 
                         {user.email && <div className={toggle ? "toggle-menu shadow-lg active" : "toggle-menu"}>
-                        <Nav.Link as={NavLink} to="/dashboard/welcome" className='menu-item'>Dashboard</Nav.Link>
+                        <Nav.Link as={NavLink} to="/dashboard" className='menu-item'>Dashboard</Nav.Link>
                             <Link style={{textDecoration:"none"}} to={'/'}><li onClick={userLogOut}>Log Out</li></Link>
                         </div>}
                     </Navbar.Collapse>
